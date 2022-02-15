@@ -1,6 +1,5 @@
 # Code to resize images and create a random 80/20 train test split
-from PIL import Image
-from PIL import ImageOps
+from PIL import Image, ImageOps
 import os
 import shutil
 import random
