@@ -21,7 +21,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './Image'
 global number_of_images
 global output_images_directory
-output_images_directory = 'D:/grape_segmentation/webapp/static/output_images'
+output_images_directory = './static/output_images'
 
 @app.route('/')
 def home():
@@ -56,8 +56,8 @@ def predict():
     im_resized = im.resize(res, Image.ANTIALIAS)
     im_resized.save(path+"/Resized.png")
     
-    PATH_TO_FROZEN_GRAPH = '../inference_graph_big_data_last/frozen_inference_graph.pb'
-    PATH_TO_LABELS = '../training_inception_v2_coco/labelmap.pbtxt'
+    PATH_TO_FROZEN_GRAPH = '../inference_graph/frozen_inference_graph.pb'
+    PATH_TO_LABELS = '../training_files/labelmap.pbtxt'
 
     #Load frozen model onto Tensorflow memory
     detection_graph = tf.Graph()
@@ -157,4 +157,4 @@ def predict():
     return render_template('result.html',user_image = "/output_images/Output"+str(number_of_images+1)+".png",final=score)	
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=True, port=8008)
