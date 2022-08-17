@@ -8,8 +8,9 @@ The project introduces a solution by training, testing and deploying a custom ob
 
 ## Some detections achieved with the final model:
 
-|  |  |
-|     :---:    |     :---:      |
-| <img src="detections/Output1.png" alt="Splash screen" height="545" width="270"/>   | <img src="detections/Output2.png" alt="Main screen" height="545" width="270"/>     | <img src="detections/Output3.png" alt="Main screen with widgets" height="545" width="270"/>    |
-| <img src="detections/Output4.png" alt="Event add screen" height="545" width="270"/>    | <img src="detections/Output5.png" alt="Event detail screen" height="545" width="270"/>       | <img src="detections/Output6.png" alt="Notify popup" height="545" width="270"/>      |
-|     <img src="detections/Output7.png" alt="Search bar" height="545" width="270"/>
+|  |  |  |
+|     :---:    |     :---:      |     :---:      |
+| <img src="detections/Output1.png" alt="Splash screen" height="545" width="370"/>   | <img src="detections/Output2.png" alt="Main screen" height="545" width="370"/>     | <img src="detections/Output3.png" alt="Main screen with widgets" height="545" width="370"/>    |
+| <img src="detections/Output4.png" alt="Event add screen" height="545" width="370"/>    | <img src="detections/Output6.png" alt="Event detail screen" height="545" width="370"/>       | <img src="detections/Output7.png" alt="Notify popup" height="545" width="370"/>      |
+
+Video outputs can be found in `webapp > static > videos`
