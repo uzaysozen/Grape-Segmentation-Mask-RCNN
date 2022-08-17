@@ -14,3 +14,7 @@ The project introduces a solution by training, testing and deploying a custom ob
 | <img src="detections/Output4.png" alt="Event add screen" height="545" width="370"/>    | <img src="detections/Output6.png" alt="Event detail screen" height="545" width="370"/>       | <img src="detections/Output7.png" alt="Notify popup" height="545" width="370"/>      |
 
 Video outputs can be found in `webapp > static > videos`
+
+Some of the images used in the project are taken from this dataset:
+
+*Thiago Santos, de Souza, Leonardo, dos Santos Andreza, & Avila, Sandra. (2019). Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3361736*
